@@ -16,12 +16,12 @@
 
 body {
     max-width: 800px;
-    margin: auto;
+    /*margin: auto;*/
     background-color: var(--cor0);    
 }
 
 header {
-    max-width: 100%;
+    width: 100%;
     background-color: var(--cor2);
     text-align: justify;
     margin: auto;
@@ -29,13 +29,15 @@ header {
 }
 
 .cabeçalho {
+    width: auto;
     background-color: var(--cor3);
     padding: 10px 0;
     
 }
 
 .cabeçalho a {
-    padding: 10px 10px;
+    width: auto;
+    padding: 10px 5px;
     color: white;
     text-decoration: none;
 }
@@ -62,7 +64,7 @@ main ul {
 }
 
 h1 {
-    max-width: 100%;
+    width: 100%;
     background-color: white;
     padding: 5px 5px;
     box-shadow: 2px 2px 2px 3px rgb(223, 223, 223);
