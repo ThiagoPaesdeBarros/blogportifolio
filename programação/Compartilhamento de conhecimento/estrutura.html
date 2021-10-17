@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura de HTML5</title>
+    <link rel="stylesheet" href="style-art.css">
+</head>
+<body>
+        
+    <header>
+        <h1>Estrutura básica de HTML5</h1>
+        
+        <nav class="cabeçalho">
+            <a href="../../index.html">Home</a>
+            <a href="programação.html">Programação</a>
+        </nav>
+
+    </header>
+    <main>
+        <section class="abertura">
+            <h2>Estruturação</h2>
+            <p>Criei este artigo, visando melhorar o conhecimento sobre a estrutura básica do HTML5 preocupando com a semântica do conteúdo HTML pensando no SEO para buscar mais atratividade para os sites.</p>
+            <p>Levando-se em consideração a estruturação básica do HTML ele possui o &lthead> que é a estrutura "inicial" que fica por trás da página. É nela quem estão as característica de linguagem, viewport, entre outras. Porém, como ainda não tenho muito conhecimento nesta área ainda, vou pular direto para o &ltbody>.</p>
+            <h3>Estrutura da tag &ltbody></h3>
+            <p>É nessa estrutura que tudo acontece!</p>
+            <p>A tag &ltbody> é responsável por apresentar todo o conteúdo do site. É nela que vamos descorrer sobre o assunto, criar formulários, apresentar imágens, vídeos, enfim as possíbilidades são infinitas.</p>
+            <p>Porém, para capturarmos a atenção dos robôs de busca, como os do google ou bing, é aconselhavel que nosso HTML possua semântica (sentido). Antigamente os desenvolvedores de sites, criavam suas estruturas contendo tag's que na época não traziam consigo essa característica de semântica, o que transfomava o código às vezes em um ninho de amafagafos. Por isso, com a nova versão do HTML5, veio para auxiliar nessas estruturas e facilitar que os sites de busca, encontrem de forma mais eficaz informações dentro de cada site.</p>
+        </section>
+        <section class="desenvolvimento">
+            <h4>Estrutura semântica</h4>
+            <p>A estrutura que sugiro que pratiquemos é esta:</p>
+            <div class="código">
+                <pre><code>
+                        &ltbody> <strong>(Demonstrando o início do corpo do site.)</strong>
+                        &ltheader> <strong>(Cabeçalho)</strong>
+                            &lth1>Contendo Informações de cabeçalho&lt/h1>
+                            &ltnav>
+                                &lta href="#">Botões&lt/a>
+                                &lta href="#">Botões&lt/a>
+                                &lta href="#">Botões&lt/a>
+                            &lt/nav>
+                        &lt/header>
+                        &ltmain> <strong>(Parte principal do site)</strong>
+                            &ltsection> <strong>(Seções)</strong>
+                                &ltarticle> <strong>(Artigos)</strong>
+                                    &lth1>Título&lt/h1>
+                                    &ltp>Texto qualquer que faz parte do artigo.Texto qualquer que faz parte do artigo.Texto qualquer que faz parte do artigo.&lt/p>
+                                &lt/article>
+                            &lt/section>
+                        &lt/main>
+                        &ltfooter> <strong>(Rodapé)</strong>
+                            &ltp>Texto de rodapé&ltp>
+                        &lt/footer>
+                        &lt/body>
+                    </code></pre>
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>

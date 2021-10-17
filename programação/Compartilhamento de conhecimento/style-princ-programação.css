@@ -1,0 +1,111 @@
+/* PROGRAMAÇÃO PÁGINA PRINCIPAL */
+@charset "UTF-8";
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor0: #DADEF2;
+    --cor1: #3253E5;
+    --cor2: #6672AA;
+    --cor3: #223899;
+    --cor4: #162566;
+
+}
+
+body {
+    max-width: 800px;
+    margin: auto;
+    background-color: var(--cor0);    
+}
+
+header {
+    max-width: 100%;
+    background-color: var(--cor2);
+    text-align: justify;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.cabeçalho {
+    background-color: var(--cor3);
+    padding: 10px 0;
+    
+}
+
+.cabeçalho a {
+    padding: 10px 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.cabeçalho a:hover {
+    background-color: var(--cor1);
+    transition: linear;
+}
+
+main {
+    max-width: 800px;
+    background-color: white;
+    text-align: justify;
+    padding: 5px 5px;
+    margin: auto;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    line-height: 1.3em;
+    text-align: justify;
+
+}
+
+main ul {
+    list-style: inside;
+}
+
+h1 {
+    max-width: 100%;
+    background-color: white;
+    padding: 5px 5px;
+    box-shadow: 2px 2px 2px 3px rgb(223, 223, 223);
+    color: darkblue;
+    text-shadow: 1px 1px 1px rgb(99, 99, 99);
+    text-align: center;
+    border-radius: 5px;
+}
+
+hr {
+    box-shadow: 1px 1px 1px rgb(99, 99, 99);
+}
+
+main h2 {
+    padding: 10px 0px;
+    background-color: white;
+    color: teal;
+}
+
+main a {
+    background-color: var(--cor2);
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+}
+
+small {
+    color: var(--cor3);
+    font-size: 10px;
+}
+
+small p {
+    padding: 5px 0px;
+}
+sub{
+    text-align: center;
+    font-size: 10px;
+}
