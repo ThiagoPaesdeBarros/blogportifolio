@@ -36,6 +36,7 @@ header {
 }
 
 .cabeçalho a {
+    display: inline-block;
     padding: 10px 10px;
     color: white;
     text-decoration: none;
@@ -108,4 +109,11 @@ small p {
 sub{
     text-align: center;
     font-size: 10px;
+    
+}
+
+@media body(max-width:600px) {
+    .cabeçalho a {
+        display: block;
+    }
 }
