@@ -39,6 +39,7 @@ header {
     padding: 10px 10px;
     color: white;
     text-decoration: none;
+    display: inline-block;
 }
 
 .cabeçalho a:hover {
@@ -51,14 +52,12 @@ hr {
 }
 
 h1 {
-    max-width: 100%;
+    width: 100%;
     background-color: white;
-    padding: 5px 5px;
-    box-shadow: 2px 2px 2px 3px rgb(223, 223, 223);
-    color: var(--cor3);
+    padding: 5px 0px;
+    color: darkblue;
     text-shadow: 1px 1px 1px rgb(99, 99, 99);
     text-align: center;
-    border-radius: 5px;
 }
 
 main {
@@ -91,11 +90,10 @@ h3, h4 {
 }
 
 main img {
-    max-width: 600px;
+    max-width: 100%;
     min-width: 320px;
-    padding: 10px;
+    padding: 10px 0px;
     display: block;
-    margin: auto;"
 }
 
 main a {
