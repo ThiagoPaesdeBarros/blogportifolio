@@ -46,6 +46,21 @@ header {
     transition: linear;
 }
 
+hr {
+    box-shadow: 1px 1px 1px rgb(99, 99, 99);
+}
+
+h1 {
+    max-width: 100%;
+    background-color: white;
+    padding: 5px 5px;
+    box-shadow: 2px 2px 2px 3px rgb(223, 223, 223);
+    color: var(--cor3);
+    text-shadow: 1px 1px 1px rgb(99, 99, 99);
+    text-align: center;
+    border-radius: 5px;
+}
+
 main {
     max-width: 800px;
     background-color: white;
@@ -58,36 +73,29 @@ main {
     text-align: justify;
 
 }
-
-h3, h4 {
-    color: var(--cor4);
-    padding: 15px 0px;
-}
-
-
 main ul {
     list-style: inside;
-}
-
-h1 {
-    max-width: 100%;
-    background-color: white;
-    padding: 5px 5px;
-    box-shadow: 2px 2px 2px 3px rgb(223, 223, 223);
-    color: darkblue;
-    text-shadow: 1px 1px 1px rgb(99, 99, 99);
-    text-align: center;
-    border-radius: 5px;
-}
-
-hr {
-    box-shadow: 1px 1px 1px rgb(99, 99, 99);
 }
 
 main h2 {
     padding: 10px 0px;
     background-color: white;
     color: teal;
+    text-align: justify;
+}
+
+h3, h4 {
+    color: var(--cor4);
+    padding: 15px 0px;
+    text-align: justify;
+}
+
+main img {
+    max-width: 600px;
+    min-width: 320px;
+    padding: 10px;
+    display: block;
+    margin: auto;"
 }
 
 main a {
