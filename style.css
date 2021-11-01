@@ -64,6 +64,14 @@ main ul {
     list-style: inside;
 }
 
+.ftperfil {
+ width: 350px;
+ height: 350px;
+ border-radius: 50%;
+ display: block;
+ margin: 10px auto 25px auto; 
+}
+
 h1 {
     width: 100%;
     background-color: white;
@@ -87,6 +95,27 @@ a {
     text-align: center;
     text-decoration: none;
     color: black;
+}
+
+.downcurriculo {
+    border: none;
+    width: 150px;
+    background-color: var(--cor3);
+    color: white;
+    padding: 5px;
+    display: block;
+    margin: 10px auto 0 auto;
+}
+
+.downcurriculo a:hover{
+    background-color: var(--cor1);
+    transition: linear;
+}
+
+.subcurriculo {
+    display: block;
+    text-align: center;
+    color: gray;
 }
 
 footer {
